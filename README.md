@@ -29,7 +29,7 @@ separation of visitor/admin. You feed `frontend.js` to any visitor and `backend.
 
 ### Prerequisites
 
-#### Node 0.11.x
+#### Node >= 0.10.30
 
 * Using [Node Version Manager] - recommended
 * Using the [install guide](https://github.com/joyent/node/wiki/Installing-Node.js-via-package-manager)
