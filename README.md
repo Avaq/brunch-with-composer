@@ -37,12 +37,6 @@ separation of visitor/admin. You feed `frontend.js` to any visitor and `backend.
 
 [Node Version Manager]: https://github.com/creationix/nvm
 
-#### Sublime ReactJS
-
-1. <key>control</key> + <key>shift</key> + <key>p</key>
-2. Install Package
-3. ReactJS
-
 ### Coding
 
 * Write source code in `src/<domain>`. Domain can be one of frontend, backend or global.
