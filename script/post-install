@@ -1,0 +1,11 @@
+#!/bin/sh
+
+# Install Bower components.
+node_modules/.bin/bower install
+
+# Make a symbolic links to local CLI's.
+ln -sf ./node_modules/.bin/bower bower
+ln -sf ./node_modules/.bin/brunch brunch
+ln -sf ./node_modules/.bin/cake cake
+ln -sf ./node_modules/.bin/pioneer pioneer
+ln -sf ./node_modules/.bin/testem testem

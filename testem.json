@@ -1,0 +1,11 @@
+{
+  "test_page": "index.mustache",
+  "reporter": "tap",
+  "src_files": [
+    "lib/vendor.js",
+    "lib/dev.js",
+    "lib/full.js",
+    "lib/tests.js",
+    "run-tests.js"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "name": "brunch-with-composer",
+  "version": "0.0.0",
+  "description": "Brunch skeleton designed to output all your JavaScripts for a classic server-rendered application",
+  "main": ["lib/vendor.js", "lib/frontend.js"],
+  "keywords": ["brunch", "skeleton", "react", "coffescript"],
+  "dependencies": {
+    "jquery": "*",
+    "react": "*",
+    "react-router-component-bower": "https://github.com/andreypopp/react-router-component-bower.git",
+    "elucidata-react-coffee": "~0.7.0"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "chai": "*",
+    "chai-as-promised": "*",
+    "sinon-chai": "*"
+  },
+  "overrides": {
+    "mocha": {
+      "main": [
+        "mocha.js",
+        "mocha.css"
+      ]
+    },
+    "chai-as-promised": {
+      "main": "lib/chai-as-promised.js"
+    },
+    "sinon-chai": {
+      "main": "./lib/sinon-chai.js"
+    },
+    "react": {
+      "main": "react-with-addons.js"
+    }
+  }
+}

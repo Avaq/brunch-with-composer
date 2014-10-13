@@ -1,0 +1,20 @@
+{
+  "name": "avaq/brunch-with-composer",
+  "description": "Brunch skeleton designed to output all your JavaScripts for a classic server-rendered application",
+  "license": "MIT",
+  "require": {
+    "robloach/component-installer": "*"
+  },
+  "authors": [
+    {
+      "name": "Avaq",
+      "email": "aldwin.vlasblom@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "extra": {
+    "component": {
+      "files": ["lib/vendor.js", "lib/frontend.js", "lib/backend.js"]
+    }
+  }
+}

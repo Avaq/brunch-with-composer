@@ -1,0 +1,12 @@
+{
+  "feature": "test/integration/features",
+  "require": [
+    "test/integration/steps",
+    "test/integration/widgets"
+  ],
+  "format": "pioneerformat.js",
+  "driver": "chrome",
+  "error_formatter": "errorformat.js",
+  "preventReload": false,
+  "coffee": true
+}

@@ -1,0 +1,1 @@
+../bower_components/chai-as-promised/lib/chai-as-promised.js

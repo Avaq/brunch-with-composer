@@ -1,0 +1,24 @@
+#!/bin/sh
+
+# Install unzip and cURL
+sudo apt-get install unzip curl
+
+# Get the latest Chrome Driver version.
+LATEST=$(curl https://chromedriver.storage.googleapis.com/LATEST_RELEASE)
+
+# Download Chrome Driver.
+echo "Downloading Chrome Driver version $LATEST."
+wget -N http://chromedriver.storage.googleapis.com/$LATEST/chromedriver_linux64.zip -P ~/Downloads
+
+# Unzip zip file.
+unzip ~/Downloads/chromedriver_linux64.zip -d ~/Downloads
+
+# Make it executable.
+chmod +x ~/Downloads/chromedriver
+
+# Move executable file to /usr/local/share.
+sudo mv -f ~/Downloads/chromedriver /usr/local/share/chromedriver
+
+# Create symbolic links.
+sudo ln -sf /usr/local/share/chromedriver /usr/local/bin/chromedriver
+sudo ln -sf /usr/local/share/chromedriver /usr/bin/chromedriver
