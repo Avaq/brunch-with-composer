@@ -1,6 +1,6 @@
 module.exports = ->
   @Given /^I visit TODOMVC$/, ->
-    @driver.get 'http://todomvc.com/architecture-examples/backbone/'
+    @driver.get 'http://todomvc.com/examples/backbone/'
 
   @When /^I enter \"([^\"]*)\"$/, (value) ->
     new @Widget(root: "#new-todo")
