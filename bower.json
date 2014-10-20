@@ -2,8 +2,16 @@
   "name": "brunch-with-composer",
   "version": "0.0.0",
   "description": "Brunch skeleton designed to output all your JavaScripts for a classic server-rendered application",
-  "main": ["lib/vendor.js", "lib/frontend.js"],
-  "keywords": ["brunch", "skeleton", "react", "coffescript"],
+  "main": [
+    "lib/vendor.js",
+    "lib/frontend.js"
+  ],
+  "keywords": [
+    "brunch",
+    "skeleton",
+    "react",
+    "coffescript"
+  ],
   "dependencies": {
     "jquery": "*",
     "react": "*",

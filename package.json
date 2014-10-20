@@ -26,6 +26,7 @@
     "pioneer": "^0.10.5",
     "react-brunch": "^1.0.6",
     "react-coffee-brunch": "0.0.1",
+    "sinon": "^1.10.3",
     "stylus-brunch": "^1.8.1",
     "testem": "^0.6.22",
     "uglify-js-brunch": "*"
